@@ -1,0 +1,62 @@
+
+h2 { 
+    border-style: groove;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    border-style: groove;
+    text-align: center;
+    color: white;
+}
+
+
+body {
+    background-image: url('npbackground1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps image static during scroll */
+}
+
+p { text-align: center;
+    color: white;
+    border-inline: 4px solid deepskyblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: large;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a:link, a:visited {
+  color: deepskyblue;
+  border: 2px solid purple;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: larger;
+}
+
+ul {list-style-type: circle;
+    color: white;
+}
+
+.styledP {
+    color: deepskyblue;
+    font: bold;
+    font-size: larger;
+}
+
+.styledp2 {
+    color: white;
+    font: icon;
+    font-size: larger;
+}
