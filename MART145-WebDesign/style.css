@@ -1,0 +1,41 @@
+
+body {
+    background-color: #eef2f7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: steelblue;
+    font-size: 36px;
+}
+
+h2 {
+    color: steelblue;
+    margin-top: 40px;
+}
+
+h3 {
+    color: steelblue;
+}
+
+p {
+    color: steelblue;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: steelblue;
+}
