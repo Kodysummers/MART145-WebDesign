@@ -1,6 +1,10 @@
 
 body {
-    background-color: #eef2f7;
+    background-image: url("mainPageBackground.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
