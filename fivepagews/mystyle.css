@@ -63,7 +63,7 @@ ul, li {list-style-type: none;
 }
 
 .nav {
-    background-color: lightblue;
+    background-color: rgba(173, 216, 230, 0.8);
     padding: 10px; 
 }
 
