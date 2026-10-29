@@ -1,0 +1,86 @@
+
+<div class="container my-5">
+  <div class="bg-light text-dark p-4 rounded">
+   <h1>Register for Updates</h1>
+    <p>Sign up to follow my projects, photography, and outdoor adventures.</p>
+
+    <form action="thankyou.html" method="get">
+
+      
+      <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="fullName"
+          name="fullName"
+          required>
+      </div>
+
+   
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          required>
+      </div>
+
+     
+      <div class="mb-3">
+        <label for="interest" class="form-label">Main Interest</label>
+        <select class="form-control" id="interest" name="interest">
+          <option value="photography">Photography</option>
+          <option value="web-design">Web Design</option>
+          <option value="coding">Coding Projects</option>
+          <option value="outdoors">Outdoor Adventures</option>
+        </select>
+      </div>
+
+      
+      <fieldset class="mb-3">
+        <legend class="h5">How often would you like updates?</legend>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio"
+                 id="weekly" name="frequency" value="weekly" checked>
+          <label class="form-check-label" for="weekly">Weekly</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio"
+                 id="monthly" name="frequency" value="monthly">
+          <label class="form-check-label" for="monthly">Monthly</label>
+        </div>
+      </fieldset>
+
+    
+      <div class="mb-3">
+        <label for="comments" class="form-label">
+          What would you like to see on my website?
+        </label>
+        <textarea class="form-control" id="comments"
+                  name="comments" rows="3"></textarea>
+      </div>
+
+     
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox"
+               id="updates" name="updates" value="yes">
+        <label class="form-check-label" for="updates">
+          I would like to receive website updates.
+        </label>
+      </div>
+
+      <p class="small">
+        This is a class demonstration. Use made-up information;
+        registration does not subscribe you to updates.
+      </p>
+
+      <button type="submit" class="btn btn-primary">Register</button>
+      <button type="reset" class="btn btn-secondary">Clear Form</button>
+    </form>
+  </div>
+</div>
